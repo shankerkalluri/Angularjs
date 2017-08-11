@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="flipzone">
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    
+    <!--<script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/angular/angular.js"></script>-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+    
+    
+</head>
+
+<body>
+    <div class="container" ng-controller="mainCtrl">
+        <div ng-include="headerUrl"></div>
+        <div ng-include="contentUrl"></div>
+    </div>
+
+    
+    <script src="app/authenticate/authenticate.js"></script>
+   
+    <script src="app/authenticate/authenticateSvc.js"></script>
+
+
+
+    <script src="app/register/register.js"></script>
+    <script src="app/register/registerCtrl.js"></script>
+
+    <script src="app/login/login.js"></script>
+    <script src="app/login/loginCtrl.js"></script>
+
+    <script src="app/home/home.js"></script>
+
+    <script src="app/products/products.js"></script>
+    <script src="app/products/productCtrl.js"></script>
+    <script src="app/products/productSvc.js"></script>
+    
+    <script src="app/cart/cart.js"></script>
+    <script src="app/cart/cartCtrl.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/common/mainCtrl.js"></script>
+
+</body>
+
+</html>
